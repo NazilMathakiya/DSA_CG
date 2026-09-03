@@ -22,5 +22,14 @@ int main(){
     node* n4 = new node();
     n4->address = NULL; 
 
+    node* i = n0;
+
+    for(i = n0; i->address != NULL; i = i->address){
+
+    }
+    i->address = n4;    
+
+
+
     return 0;
 }
